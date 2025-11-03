@@ -1,1 +1,15 @@
+ecommerce:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: abcd
+      user: ABCD
+      password: abcd
+      role: ACCOUNTADMIN
+      database: ecommerce_db
+      warehouse: COMPUTE_WH
+      schema: analytics
+      threads: 1
+      client_session_keep_alive: False
 
