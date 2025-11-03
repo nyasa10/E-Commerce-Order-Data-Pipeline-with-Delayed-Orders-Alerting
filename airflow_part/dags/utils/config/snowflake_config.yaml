@@ -1,1 +1,8 @@
-
+snowflake:
+  user: ABCD
+  password: abcd
+  account: abcd
+  warehouse: COMPUTE_WH
+  database: ecommerce_db
+  schema: analytics
+  role: ACCOUNTADMIN 
